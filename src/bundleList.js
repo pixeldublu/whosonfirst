@@ -41,7 +41,8 @@ const venueRoles = [
   'venue'
 ];
 
-const SQLITE_REGEX = /whosonfirst-data-[a-z0-9-]+\.db$/;
+const SQLITE_REGEX = /whosonfirst-data-(admin|postalcode|venue|constituency)-[a-z0-9-]+\.db$/;
+
 
 function getPlacetypes() {
   let roles = hierarchyRoles;

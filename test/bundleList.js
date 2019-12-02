@@ -36,8 +36,9 @@ const VENUES = [
 ];
 
 const SQLITE_EXAMPLE = [
+  'whosonfirst-data-admin-au-latest.db',
   'whosonfirst-data-constituency-us-ct-1481486175.db',
-  'whosonfirst-data-latest.db',
+  //'whosonfirst-data-latest.db', // no longer allowed, must use country bundles
   'whosonfirst-data-postalcode-fr-latest.db',
   'whosonfirst-data-postalcode-jp-latest.db'
 ];
